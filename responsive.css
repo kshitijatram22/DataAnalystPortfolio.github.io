@@ -1,0 +1,619 @@
+@media screen and (max-width: 950px) {
+    .Header .Left h4 {
+        font-size: 25px;
+    }
+
+    .mainHeader {
+        height: 400px;
+    }
+
+    .Header .Right a {
+        font-size: 18px;
+    }
+
+    .Header .Right button {
+        width: 80px;
+        font-size: 18px;
+    }
+
+    .Section-One {
+        margin-top: 50px;
+        background-image: none;
+        background-color: #1E1F24;
+        height: 400px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Section-One .Right {
+        width: 100%;
+    }
+
+    .Section-One .Right img {
+        /* margin-top: 250px; */
+        width: 350px;
+    }
+
+    .Section-One .Left {
+        width: 70%;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+
+    .Section-Two {
+        height: 600px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Section-Two .Left img {
+        display: none;
+    }
+
+    .Section-Two .Middle h3 {
+        padding: 0;
+    }
+
+    .Section-Two .Middle p {
+        padding: 0;
+    }
+
+    .Section-Two .Right {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Section-Two .Right a {
+        padding: 0px 10px;
+    }
+
+    .Section-Four .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Section-Four #more {
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 300px;
+    }
+
+    footer .container {
+        height: 175px;
+    }
+
+    footer .container .Left img {
+        width: 120px;
+    }
+
+    footer .container .Right .One {
+        font-size: 25px;
+    }
+
+    footer .container .Right .Two img {
+        width: 40px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .Header {
+        height: 50px;
+    }
+
+    .Header .Right {
+        justify-content: flex-end;
+    }
+
+    .mainHeader {
+        height: 400px;
+    }
+
+    .hideAll {
+        display: none;
+    }
+
+    .Header .Right .menu-button {
+        display: block;
+    }
+
+    .Section-One .Right img {
+        /* margin-top: 250px; */
+        width: 275px;
+    }
+
+    .Section-One .Left h1 {
+        font-size: 40px;
+    }
+
+    .Section-One .Left p {
+        font-size: 20px;
+    }
+
+    .Section-One .Left button {
+        width: 110px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .Section-Two {
+        margin: 0;
+    }
+
+    .Section-Two .Middle {
+        text-align: center;
+    }
+
+    .Section-Two .Middle h3 {
+        font-size: 35px;
+    }
+
+    .Section-Two .Middle p {
+        font-size: 16px;
+    }
+
+    .Section-Three .container .row {
+        width: 80%;
+    }
+
+    .Section-Three .container .row .cell {
+        font-size: 16px;
+    }
+
+    .Section-Three .container .row .cell img {
+        width: 70px;
+        height: auto;
+    }
+
+    .Section-Four h4 {
+        font-size: 30px;
+    }
+
+    .container .Image-Box {
+        width: 200px;
+        height: 150px;
+    }
+
+    .Section-Four .container .projects h3 {
+        font-size: 16px;
+    }
+
+    .Section-Four #more {
+        margin-top: 10px;
+    }
+
+    .Section-Five .container {
+        flex-direction: column;
+    }
+
+    .Section-Five .container .Left {
+        width: 100%;
+
+
+    }
+
+    .Section-Five .container .Left h2 {
+        font-size: 35px;
+
+    }
+
+    .Section-Five .container .Left p {
+        font-size: 18px;
+    }
+
+    .Section-Five .container .Right {
+        width: 100%;
+    }
+
+    .container .Right .Right-Top img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .container .Right .Right-Top h2 {
+        font-size: 25px;
+    }
+
+    .container .Right p,
+    ul li {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    footer {
+        height: 250px;
+    }
+
+    footer .container {
+        height: 150px;
+    }
+
+    footer .container .Left img {
+        width: 100px;
+    }
+
+    footer .container .Left h3 {
+        font-size: 20px;
+    }
+
+    footer .container .Left p {
+        font-size: 14px;
+    }
+
+    footer .container .Right .One {
+        font-size: 20px;
+    }
+
+    footer .container .Right .Two img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .Section-One {
+        margin-top: 50px;
+    }
+
+    .mainHeader {
+        height: 400px;
+    }
+
+    .Section-One .Right img {
+        /* margin-top: 250px; */
+        width: 230px;
+    }
+
+    .Section-One .Left h1 {
+        font-size: 35px;
+    }
+
+    .Section-One .Left p {
+        font-size: 18px;
+    }
+
+    .Section-One .Left button {
+        width: 110px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .Section-Two .Middle h3 {
+        font-size: 35px;
+    }
+
+    .Section-Two .Middle p {
+        font-size: 16px;
+    }
+
+    .Section-Two .Right a img {
+        width: 40px;
+    }
+
+    .Section-Three .container .row .cell {
+        font-size: 14px;
+    }
+
+    .Section-Three .container .row .cell img {
+        width: 50px;
+        height: auto;
+    }
+
+    .Section-Three .container h4 {
+        font-size: 25px;
+    }
+
+    .Section-Four h4 {
+        font-size: 25px;
+    }
+
+    .Section-Four #more {
+        margin-top: 10px;
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .container .Image-Box {
+        width: 200px;
+        height: 150px;
+    }
+
+    .Section-Four .container .projects h3 {
+        font-size: 16px;
+    }
+
+    .Section-Five .container .Left h2 {
+        font-size: 30px;
+
+    }
+
+    .Section-Five .container {
+        height: 350px;
+    }
+
+    .Section-Five .container .Left p {
+        font-size: 16px;
+    }
+
+    .container .Right .Right-Top img {
+        width: 80px;
+        height: 35px;
+    }
+
+    .container .Right .Right-Top h2 {
+        font-size: 25px;
+    }
+
+    .container .Right p,
+    ul li {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .container .Left {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
+
+    footer .container .Right {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Section-One {
+        margin-top: 20px;
+    }
+
+    .mainHeader {
+        height: 400px;
+    }
+
+    .Section-One .Right img {
+        /* margin-top: 250px; */
+        width: 200px;
+    }
+
+    .Section-One .Left h1 {
+        font-size: 30px;
+    }
+
+    .Section-One .Left p {
+        font-size: 14px;
+    }
+
+    .Section-One .Left button {
+        width: 90px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .Section-Two .Middle {
+        width: 80%;
+
+    }
+
+    .Section-Three .container .row .cell {
+        font-size: 12px;
+    }
+    .Section-Four #more {
+        margin-top: 10px;
+        width: 60px;
+        font-size: 12px;
+    }
+    footer {
+        height: 200px;
+    }
+
+    footer .container .Left img {
+        width: 80px;
+    }
+
+    footer .container .Right .One {
+        font-size: 16px;
+    }
+
+    footer .container .Right .Two img {
+        width: 35px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .Section-Three .container .row .cell img {
+        width: 40px;
+        height: auto;
+    }
+
+    .mainHeader {
+        height: 400px;
+    }
+
+    .Section-Three .container .row .cell {
+        font-size: 12px;
+    }
+
+    .Section-Five .container .Left h2 {
+        font-size: 25px;
+
+    }
+
+    .Section-Five .container .Left p {
+        font-size: 14px;
+    }
+
+    .Section-Three .container .row .cell img {
+        width: 40px;
+    }
+
+    .Section-Three .container .row .cell {
+        font-size: 10px;
+    }
+
+    .Section-Five .container {
+        width: 90%;
+    }
+
+    .container .Right .Right-Top img {
+        width: 70px;
+        height: 30px;
+    }
+
+    .container .Right .Right-Top h2 {
+        font-size: 20px;
+    }
+
+    .container .Right p,
+    ul li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .Section-One .Right img {
+        /* margin-top: 250px; */
+        width: 200px;
+    }
+
+    .mainHeader {
+        height: 400px;
+    }
+
+    .Section-One .Left h1 {
+        font-size: 26px;
+    }
+
+    .Section-One .Left p {
+        font-size: 14px;
+    }
+
+    .Section-Two .Middle h3 {
+        font-size: 25px;
+    }
+
+    .Section-Two .Middle p {
+        font-size: 14px;
+    }
+
+    .Section-Two .Middle button {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .Section-Two .Right a img {
+        width: 35px;
+    }
+
+    .Section-Three .container .row .cell {
+        font-size: 10px;
+    }
+
+    .Section-Three .container .row .cell img {
+        width: 35px;
+        height: auto;
+    }
+
+    .Section-Five .container .Left h2 {
+        font-size: 25px;
+
+    }
+
+    .Section-Five .container .Left p {
+        font-size: 14px;
+    }
+
+    .Section-Five .container {
+        width: 90%;
+    }
+
+    .container .Right .Right-Top img {
+        width: 70px;
+        height: 30px;
+    }
+
+    .container .Right .Right-Top h2 {
+        font-size: 20px;
+    }
+
+    .container .Right p,
+    ul li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .Section-Five .container {
+        width: 90%;
+    }
+
+    .container .Right .Right-Top img {
+        width: 70px;
+        height: 30px;
+    }
+
+    .container .Right .Right-Top h2 {
+        font-size: 20px;
+    }
+
+    .container .Right p,
+    ul li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .Section-Five .container {
+        width: 90%;
+    }
+
+    .container .Right .Right-Top img {
+        width: 70px;
+        height: 30px;
+    }
+
+    .container .Right .Right-Top h2 {
+        font-size: 20px;
+    }
+
+    .container .Right p,
+    ul li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .Section-Five .container {
+        width: 90%;
+    }
+
+    .container .Right .Right-Top img {
+        width: 70px;
+        height: 30px;
+    }
+
+    .container .Right .Right-Top h2 {
+        font-size: 20px;
+    }
+
+    .container .Right p,
+    ul li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}

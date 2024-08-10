@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+body {
+    background-color: #1E1F24;
+    color: white;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header h1{
+    text-align: center;
+    
+}
+
+header span{
+    background: -webkit-linear-gradient(45deg, #9747ff, #0dffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+header span::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: rgb(0, 238, 255);
+    width: 0%;
+    transition: all ease 1s;
+}
+
+header span:hover::after {
+    width: 100%;
+    transition: all ease 1s;
+}
+
+
+
+
+.card{
+    border: 1px solid rgb(54, 54, 255);
+}
+
+.card .card-body{
+    background-color: #3d3d3d;
+    color: white;
+}

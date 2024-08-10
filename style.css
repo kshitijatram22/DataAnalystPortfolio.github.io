@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1E1F24;
+    color: white;
+}
+
+.Header {
+    top: 0;
+    color: white;
+    backdrop-filter: blur(15px);
+    background-color: #00000051;
+    position: sticky;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    box-shadow: 0px 0px 2px black;
+    /* border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; */
+}
+
+.Header .Left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header .Left h4 {
+    font-size: 30px;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Header .Right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Header .Right a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.Header .Right a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+
+
+.Header .Right button {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: rgb(237, 237, 237);
+    background: linear-gradient(45deg, #9747ff, #0dffcb);
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.Section-One {
+    color: white;
+    background-image: url(./Images/BG5.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.Section-One .Left {
+    width: 50%;
+    height: auto;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 50px;
+
+}
+
+.Section-One .Left h1 {
+    
+    font-size: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+.Section-One .Left span {
+    background: -webkit-linear-gradient(45deg, #9747ff, #0dffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.Section-One .Left span::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background-color: rgb(0, 238, 255);
+    width: 0%;
+    transition: all ease 1s;
+}
+
+.Section-One .Left span:hover::after {
+    width: 100%;
+    transition: all ease 1s;
+}
+
+
+.Section-One .Left p {
+    font-size: 22px;
+    padding: 10px 0px;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Section-One .Left button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    background: linear-gradient(45deg, #9747ff, #0dffcb);
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.Section-One .Right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Section-One .Right img {
+    width: 450px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+.Section-Two {
+    /* height: 450px; */
+    display: flex;
+    width: 100%;
+
+}
+
+.Section-Two .Left {
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Section-Two .Left img {
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 2px black; */
+}
+
+.Section-Two .Middle {
+    width: 60%;
+    height: auto;
+}
+
+.Section-Two .Middle h3 {
+    font-size: 40px;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 20px 20px;
+}
+
+
+
+.Section-Two .Middle p {
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.Section-Two .Middle button {
+    margin: 20px 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: rgb(237, 237, 237);
+    background: linear-gradient(45deg, #9747ff, #0dffcb);
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.Section-Two .Right {
+    width: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section-Two .Right a {
+    padding: 10px 0px;
+}
+
+/* Technologies Section */
+
+.Section-Three {
+    margin-bottom: 50px;
+    height: 50;
+}
+
+.Section-Three .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.Section-Three .container h4 {
+    margin-bottom: 20px;
+}
+
+.Section-Three .container h4 span{
+    background: -webkit-linear-gradient(45deg, #9747ff, #0dffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.Section-Three .container .row {
+    display: flex;
+    width: 60%;
+}
+
+.Section-Three .container .row .cell {
+    margin: 10px;
+    flex: 1;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.Section-Three .container .row .cell img {
+    /* width: 100px; */
+    box-shadow: 0px 0px 2px black;
+    background-color: #ecfffb;
+    border-radius: 20px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.Section-Four :not(h4) {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.Section-Four h4 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.Section-Four h4 span{
+    background: -webkit-linear-gradient(45deg, #9747ff, #0dffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Section-Four p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.Section-Four  #more{
+    /* margin-top: 10px; */
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: rgb(0, 225, 255);
+    border: 1px solid rgb(0, 225, 255);
+    width: 100px;
+    border-radius: 10px;
+    background-color: #2E323D;
+    transition: 0.3s all;
+
+
+}
+
+.Section-Four #more:hover{
+    background-color: rgb(0, 225, 255);
+    color: #2E323D;
+}
+
+
+.Section-Four .container {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .Image-Box {
+    overflow: hidden;
+    margin: 0px 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.container .Image-Box img:hover {
+    transform: scale(1.15);
+}
+
+.container img {
+    border-radius: 20px;
+
+    transition: all ease 0.3s;
+
+}
+
+.Section-Four .container .projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.Section-Four .container .projects h3 {
+    margin-top: 10px;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.Section-Five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.Section-Five .container {
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #2E323D;
+    border: 1px solid black;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow: auto;
+}
+
+.Section-Five .container .Left {
+    width: 30%;
+    padding-left: 20px;
+
+}
+
+.Section-Five .container .Left h2 {
+    font-size: 45px;
+    background: -webkit-linear-gradient(45deg, #9747ff, #0dffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.Section-Five .container .Left p {
+    font-size: 22px;
+}
+
+.Section-Five .container .Right {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.container .Right .Right-Top {
+    display: flex;
+    align-items: center;
+
+}
+
+.container .Right p,
+ul li {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.container .Right .Right-Top h2 {
+    font-size: 30px;
+}
+
+.container .Right .Right-Top img {
+    width: 120px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+footer  {
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+footer .container {
+    width: 80%;
+    height: 200px;
+    display: flex;
+}
+
+footer .container .Left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+
+}
+
+footer .container .Left img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+footer .container .Left h3 {
+    font-size: 30px;
+}
+
+footer .container .Left a {
+    text-decoration: none;
+    color: rgb(0, 225, 255);
+}
+
+
+footer .container .Right {
+    width: 50%;
+
+}
+
+footer .container .Right .One {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+footer .container .Right .Two {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .container .Right .Two img {
+    width: 50px;
+    border-radius: 50%;
+    padding: 0px 10px;
+}
+
+.Credits{
+    height: 50px;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-color: black;
+   font-family: "Afacad", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+
+.Credits a{
+    text-decoration: none;
+    color: rgb(0, 225, 255);
+}
+
+/* This code is for header */
+
+
+
+.mainHeader {
+    background-color: rgba(0, 0, 0, 0.217);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 999;
+    height: 400px;
+    flex-direction: column;
+    display: none;
+    transition: all ease 0.5s;
+}
+
+.mainHeader .Left {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.mainHeader .Right {
+    width: 100%;
+    flex-direction: column;
+    justify-content:left;
+}
+
+.mainHeader .Right a{
+    padding: 10px 0px;
+    color: white;
+}
+
+.Header .Right .menu-button{
+    display: none;
+}
